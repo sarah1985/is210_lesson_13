@@ -39,6 +39,14 @@ Task 01: Implement a Selection Sort
 #.  ``selection()`` returns the iterable object sorted from least to most by
     the `Selection Sort` algorithm
 
+Example
+-------
+
+.. code:: pycon
+
+    >>> sorters.selection([2, 1, 3])
+    [1, 2, 3]
+
 Task 02: Implement a Quicksort
 ==============================
 
@@ -51,6 +59,14 @@ Task 02: Implement a Quicksort
 
 #.  ``quick()`` returns the iterable object sorted from least to most by the
     `Selection Sort` algorithm
+
+Example
+-------
+
+.. code:: pycon
+
+    >>> sorters.selection([2, 1, 3])
+    [1, 2, 3]
 
 Submission
 ==========
