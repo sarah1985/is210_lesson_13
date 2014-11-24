@@ -4,6 +4,7 @@
 
 import random
 
+
 def selection(iterable):
     """selection sort algorithm"""
 
@@ -20,12 +21,14 @@ def selection(iterable):
 
     return iterable
 
+
 def print_list(sort_list):
     """print sorted list"""
 
     for item in sort_list:
-        print ("{:3}".format(item))
+        print "{:3}".format(item)
     print()
+
 
 def quick(iterable):
     """quick sort algorithm"""
@@ -52,12 +55,12 @@ def quick(iterable):
 
 if __name__ == "__main__":
 
-    var_list = []
+    VAR_LIST = []
     for var in range(10):
-        var_list.append(random.randrange(100))
-    print_list(var_list)
-    selection(var_list)
-    print_list(var_list)
+        VAR_LIST.append(random.randrange(100))
+    print_list(VAR_LIST)
+    selection(VAR_LIST)
+    print_list(VAR_LIST)
 
     QUICK = [10, 1, 9, 2, 4, 3, 8, 6, 5, 7]
     print quick(QUICK)
